@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma Prototype Fullscreen</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .iframe-wrapper {
+      height: 100%;
+      width: 100%;
+    }
+
+    .desktop-frame,
+    .mobile-frame {
+      display: none;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+
+    @media screen and (min-width: 768px) {
+      .desktop-frame {
+        display: block;
+      }
+    }
+
+
+    @media screen and (max-width: 767px) {
+      .mobile-frame {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-wrapper">
+    <!-- Desktop Figma Prototype -->
+    <iframe 
+      class="desktop-frame"
+      src="https://embed.figma.com/proto/K12SUHvQNup1bQDKVTELXT/GDG-Hackathon?page-id=0%3A1&node-id=1-4&p=f&viewport=155%2C-83%2C0.05&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A4&embed-host=share" 
+      allowfullscreen>
+    </iframe>
+
+    <!-- Mobile Figma Prototype -->
+    <iframe 
+      class="mobile-frame"
+      src="https://embed.figma.com/proto/mNoUg9Dn2NJGY54dvszJyS/GDG-Hackathon---Mobile?page-id=0%3A1&node-id=678-1292&p=f&viewport=466%2C449%2C0.03&scaling=scale-down&content-scaling=fixed&embed-host=share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
+
