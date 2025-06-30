@@ -6,7 +6,7 @@ This is a basic HTML project to showcase the Figma prototype for the Sparkfest 2
 https://peewweee.github.io/sparkfest2025/
 
 ## 🔗 Website Link
-https://sparkfest-2025-97i2.vercel.app
+*This website was developed by the Web Development Team.* https://sparkfest-2025-97i2.vercel.app
 
 ### Desktop View
 
